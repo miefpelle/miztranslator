@@ -33,7 +33,7 @@ class Weather(object):
     atmosphereType = 0
     qnh = 0
     name = ""
-    enableFog = false
+    enableFog =
     wind = {'atGround' : {'speed' : 0, 'dir' : 0},
         'at2000' : {'speed' : 0, 'dir' : 0},
         'at8000' : {'speed' : 0, 'dir' : 0}
@@ -55,7 +55,7 @@ class Zone(object):
     radius = 0
     zoneId = 0
     color = [ 0, 0, 0, 0.0 ]
-    hidden = true
+    hidden = True
     name = ""
     def __init__(self, arg):
         super(Zone, self).__init__()
@@ -97,7 +97,7 @@ class Result(object):
 
 class GroundControl(object):
     """docstring for GroundControl"""
-    isPilotControlVehicles = false
+    isPilotControlVehicles = False
     roles = []
     def __init__(self, arg):
         super(GroundControl, self).__init__()
