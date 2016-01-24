@@ -29,7 +29,7 @@ class Result(object):
 ################################################################################
 
 class Weather(object):
-    """docstring for Weather"""
+    """Weather -- representing the weather in DCS"""
     atmosphereType = 0
     qnh = 0
     name = ""
