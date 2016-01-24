@@ -33,7 +33,7 @@ class Weather(object):
     atmosphereType = 0
     qnh = 0
     name = ""
-    enableFog =
+    enableFog = False
     wind = {'atGround' : {'speed' : 0, 'dir' : 0},
         'at2000' : {'speed' : 0, 'dir' : 0},
         'at8000' : {'speed' : 0, 'dir' : 0}
